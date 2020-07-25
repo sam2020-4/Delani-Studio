@@ -3,6 +3,11 @@ body{
     overflow-x: hidden;
 }
 
+/* container */
+.fill{
+    width: 100%;
+}
+
 /*styles for landing page here  */
 .landing-page{
     background-image: url('../assets/backgrounds/h_img.jpg');
@@ -20,7 +25,8 @@ body{
     color: white;
     text-transform: uppercase;
     line-height: 3rem;
-    padding-top: 60px;   
+    padding-top: 60px; 
+    font-weight: bold;  
 }
 
 .landing-page>p{
@@ -54,6 +60,9 @@ body{
     color: white;
     line-height: 2em;
 }
+.services>h2{
+    font-weight: bold;
+}
 
 /* styling what section */
 .what{
@@ -62,6 +71,7 @@ body{
 
 .what >h2{
     padding-top: 30px;
+    font-weight: bold;
 }
 
 .design-p,.dev-p,.product-p{
