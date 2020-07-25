@@ -76,5 +76,8 @@ body{
 
 /* styling for footer */
 .footer{
-    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 202, 202);
+    padding: 15px;    
 }
