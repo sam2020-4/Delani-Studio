@@ -50,16 +50,13 @@ body{
     background-position: center;     
     padding: 100px 0 100px 0;
     opacity: 0.9;
-}
-
-.services >h2{
     text-align: center;   
     color: white;
-    padding-top: 15px;
+    line-height: 2em;
 }
 
-.services >p{
-    text-align: center;   
-    color: white;
-    line-height: 2em;    
+/* styling what section */
+.what >h2{
+    text-align: center;
+
 }
