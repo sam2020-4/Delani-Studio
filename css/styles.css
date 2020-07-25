@@ -57,8 +57,7 @@ body{
 
 /* styling what section */
 .what{
-    text-align: center;
-    /* padding: 30px 0 30px 0; */
+    text-align: center;    
 }
 
 .what >h2{
@@ -67,4 +66,15 @@ body{
 
 .design-p,.dev-p,.product-p{
     display: none;
+}
+
+/* styling for portfolio */
+
+/* styling for contact form */
+
+/* styling for social media icons */
+
+/* styling for footer */
+.footer{
+    
 }
