@@ -32,10 +32,14 @@ body{
 
 /* styles for about */
 .about{
+    padding: 20px;
     text-align:center;
-    
 }
 
+.about >p{
+    line-height: 2em;    
+}
+/* 
 .services{
 
-}
+}  */
