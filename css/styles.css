@@ -82,11 +82,13 @@ body{
 
 /* styling for contact form */
 
+
 /* styling for social media icons */
 .social-icons{    
     display: flex;
     justify-content: center;
 }
+
 /* styling for footer */
 .footer{
     text-align: center;
