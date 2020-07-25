@@ -2,17 +2,17 @@
 //first column
 $(document).ready(function(){
     $("#design-img").click(function(){
-        $(".design-p").hide(500).toggle();
+        $(".design-p").hide().toggle();
         $("#design-img").slideUp();    
             });
     $(".design-p").click(function(){
         $("#design-img").slideDown();
         $(".design-p").hide();
-    });
+    })
     
     //second column
     $("#dev-img").click(function(){
-        $(".dev-p").hide(500).toggle();
+        $(".dev-p").hide().toggle();
         $("#dev-img").slideUp();    
             });
         $(".dev-p").click(function(){
@@ -22,7 +22,7 @@ $(document).ready(function(){
     
     //third column
     $("#product-img").click(function(){
-        $(".product-p").hide(500).toggle();
+        $(".product-p").hide().toggle();
         $("#product-img").slideUp();    
             });
         $(".product-p").click(function(){
@@ -30,6 +30,8 @@ $(document).ready(function(){
             $(".product-p").hide();
         });
     
+
+        
     
 
 
