@@ -65,3 +65,6 @@ body{
     padding-top: 30px;
 }
 
+.design-p,.dev-p,.product-p{
+    display: none;
+}
