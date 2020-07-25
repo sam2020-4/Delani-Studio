@@ -1,35 +1,39 @@
 body{
-    font-family: Arial, Helvetica, sans-serif, 'Arima Madurai';
+    /* font-family: Arial, Helvetica, sans-serif, 'Arima Madurai'; */
+    overflow-x: hidden;
 }
 
+/*styles for landing page here  */
 .landing-page{
     background-image: url('../assets/backgrounds/h_img.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height:720px;
-    padding: 200px;
+    background-size: cover;  
+    background-position: center;     
+    height:auto;
+    text-align: center;        
 }
 
 .landing-page >h1{
     text-align: center;
     color: white;
     text-transform: uppercase;
-    line-height: 2em;
+    line-height: 3rem;
+    padding-top: 50px;   
 }
+
 .landing-page>p{
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
+    color: white;    
+    text-transform: uppercase;    
 }
 
+.landing-page >img:last-child{
+    padding: 35px;
+}
 
-
-
-
-
+/* styles for about */
 .about{
-
+    text-align:center;
+    
 }
 
 .services{
