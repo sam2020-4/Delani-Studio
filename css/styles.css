@@ -84,9 +84,11 @@ body{
 
 
 /* styling for social media icons */
-.social-icons{    
-    display: flex;
+.social-icons{  
+    width: 100%;  
     justify-content: center;
+    display: flex;
+   
 }
 
 /* styling for footer */
