@@ -10,7 +10,9 @@ body{
     background-size: cover;  
     background-position: center;     
     height:auto;
-    text-align: center;        
+    text-align: center;
+    height: 720px;
+    padding: 200px;
 }
 
 .landing-page >h1{
@@ -18,7 +20,7 @@ body{
     color: white;
     text-transform: uppercase;
     line-height: 3rem;
-    padding-top: 50px;   
+    padding-top: 60px;   
 }
 
 .landing-page>p{
@@ -27,10 +29,10 @@ body{
 }
 
 .landing-page >img:last-child{
-    padding: 35px;
+    padding: 150px;
 }
 
-/* styles for about */
+/* styles for about section */
 .about{
     padding: 20px;
     text-align:center;
@@ -39,7 +41,25 @@ body{
 .about >p{
     line-height: 2em;    
 }
-/* 
-.services{
 
-}  */
+/* styling services section */
+.services{
+    background-image: url('../assets/backgrounds/s_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;     
+    padding: 100px 0 100px 0;
+    opacity: 0.9;
+}
+
+.services >h2{
+    text-align: center;   
+    color: white;
+    padding-top: 15px;
+}
+
+.services >p{
+    text-align: center;   
+    color: white;
+    line-height: 2em;    
+}
