@@ -81,12 +81,14 @@ $(document).ready(function(){
     $('.card6').mouseout(function(){
         $('.project7').hide();
     });
-
-
-
-
+    
+    $('.card7').mouseover(function (){
+        $('.project8').show();
+    }); 
+    $('.card7').mouseout(function(){
+        $('.project8').hide();
+    });
 });
-
 
 //form function
 function contact(form){
