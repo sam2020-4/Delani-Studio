@@ -31,7 +31,7 @@ $(document).ready(function(){
         });
 });  
   
-//portfolio function
+//portfolio function for project 1-8
 $(document).ready(function(){
     $('.card').mouseover(function (){
         $('.project').show();
