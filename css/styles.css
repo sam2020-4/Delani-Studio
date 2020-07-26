@@ -65,7 +65,7 @@ body{
 
 /* styling services section */
 .services{
-    background-image: url('../assets/backgrounds/s_image.jpg');
+    background-image: url('../assets/backgrounds/s_image.jpg'), linear-gradient(#525052, #413f3f);
     background-repeat: no-repeat;
     background-size: cover;  
     background-position: center;     
@@ -249,10 +249,14 @@ textarea {
     padding: 30px 0 8px 0;   
     justify-content: space-around;
 }
+.social-icons>#hv:hover{
+    transform: scale(1.4);
+}
 
 /* styling for footer */
 .footer{
     text-align: center;
     padding: 15px 0 15px 0;  
-    line-height: 1em;  
+    line-height: 1em; 
+    font-weight: bold; 
 }
