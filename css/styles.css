@@ -79,6 +79,10 @@ body{
 }
 
 /* styling for portfolio */
+.col-space{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .portfolio >h2{
     font-weight: bold;
