@@ -81,13 +81,16 @@ body{
 /* styling for portfolio */
 .col-space{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;   
 }
 
 .portfolio >h2{
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+}
+#pro{   
+    margin-top: 30%;      
 }
 
 .project{
@@ -101,9 +104,92 @@ body{
     display:none;
     color:black;
     font-size: 20px;
+}
+
+.project2{    
+    width: 320px;
+    height: 270px;
+    background-color:white;
+    z-index: 1;
+    opacity: 0.6;
+    position: absolute;
+    top: 0.0em;
+    display:none;
+    color:black;
+    font-size: 20px;   
+}
+.project3{
+    width: 320px;
+    height: 270px;
+    background-color:white;
+    z-index: 1;
+    opacity: 0.4;
+    position: absolute;
+    top: 0.0em;
+    display:none;
+    color:black;
+    font-size: 20px;
     }
-
-
+ .project4{
+    width: 320px;
+    height: 270px;
+    background-color:white;
+    z-index: 1;
+    opacity: 0.5;
+    position: absolute;
+    top: 0.0em;
+    display:none;
+    color:black;
+    font-size: 20px;
+    }
+    .project5{
+    width: 320px;
+    height: 270px;
+    background-color:white;
+    z-index: 1;
+    opacity: 0.5;
+    position: absolute;
+    top: 0.0em;
+    display:none;
+    color:black;
+    font-size: 20px;
+    }
+    .project6{
+     width: 320px;
+    height: 270px;
+    background-color:white;
+    z-index: 1;
+    opacity: 0.5;
+    position: absolute;
+    top: 0.0em;
+    display:none;
+    color:black;
+    font-size: 20px;
+    }
+    .project7{
+    width: 320px;
+    height: 270px;
+    background-color:white;
+    z-index: 1;
+    opacity: 0.5;
+    position: absolute;
+    top: 0.0em;
+    display:none;
+    color:black;
+    font-size: 20px;
+    }
+    .project8{
+    width: 320px;
+    height: 270px;
+    background-color:white;
+    z-index: 1;
+    opacity: 0.5;
+    position: absolute;
+    top: 0.0em;
+    display:none;
+    color:black;
+    font-size: 20px;
+    }
 
 
 /* styling for contact form */
