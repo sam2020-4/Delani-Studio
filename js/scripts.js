@@ -29,11 +29,17 @@ $(document).ready(function(){
             $("#product-img").slideDown();
             $(".product-p").hide();
         });
-    
 
-        
-    
+});  
+  
+//portfolio function
 
 
 
-});
+//form function
+function contact(form){
+    var name = document.forms["contacts"]["name"].value;
+    var email = document.forms["contacts"]["email"].value;
+    var message = document.forms["contacts"]["message"].value;
+    alert("Hello! " + name + "," + " We have received your message. Thank you for reaching out to us. ");
+    }
