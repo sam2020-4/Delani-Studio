@@ -34,13 +34,21 @@ $(document).ready(function(){
 //portfolio function
 $(document).ready(function(){
     $('.card').mouseover(function (){
-          $('.project').show();
-      }); 
-      $('.card').mouseout(function(){
-          $('.project').hide();
-      });
-
+        $('.project').show();
+    }); 
+    $('.card').mouseout(function(){
+        $('.project').hide();
     });
+
+    $('.card1').mouseover(function (){
+        $('.project2').show();
+    }); 
+    $('.card1').mouseout(function(){
+        $('.project2').hide();
+    });
+
+
+});
 
 
 //form function
