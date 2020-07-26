@@ -86,9 +86,11 @@ body{
 /* styling for social media icons */
 .social-icons{  
     width: 100%;  
-    justify-content: center;
+    text-align: center;    
     display: flex;
-   
+    padding-left: 30%;
+    padding-right: 20%;
+    justify-content: space-around;    
 }
 
 /* styling for footer */
