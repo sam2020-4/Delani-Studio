@@ -81,7 +81,12 @@ body{
 /* styling for portfolio */
 
 /* styling for contact form */
-
+.contact{
+    background-image: url('../assets/backgrounds/c_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
 
 /* styling for social media icons */
 .social-icons{  
@@ -90,7 +95,8 @@ body{
     display: flex;
     padding-left: 30%;
     padding-right: 20%;
-    justify-content: space-around;    
+    justify-content: space-around;
+    padding-top: 20px;    
 }
 
 /* styling for footer */
