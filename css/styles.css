@@ -3,11 +3,6 @@ body{
     overflow-x: hidden;
 }
 
-/* container */
-.fill{
-    width: 100%;
-}
-
 /*styles for landing page here  */
 .landing-page{
     background-image: url('../assets/backgrounds/h_img.jpg');
@@ -20,18 +15,19 @@ body{
     padding: 200px;
 }
 
-.landing-page >h1{
+.landing-page >h2{
     text-align: center;
     color: white;
     text-transform: uppercase;
     line-height: 3rem;
-    padding-top: 60px; 
+    padding-top: 49px; 
     font-weight: bold;  
 }
 
 .landing-page>p{
     color: white;    
-    text-transform: uppercase;    
+    text-transform: uppercase; 
+    text-align: center;   
 }
 
 .landing-page >img:last-child{
@@ -80,8 +76,8 @@ body{
 
 /* styling for portfolio */
 .col-space{
-    margin-top: 20px;
-    margin-bottom: 20px;   
+    margin-top: 22px;
+    margin-bottom: 25px;   
 }
 
 .portfolio >h2{
@@ -91,12 +87,12 @@ body{
 }
 #pro{   
     margin-top: 30%; 
-    text-align: center;     
+    text-align: center;         
 }
 
 .project{
-    width: 320px;
-    height: 270px;
+    width: 100%;
+    height: 100%;
     background-color:white;
     z-index: 1;
     opacity: 0.2;
@@ -108,8 +104,8 @@ body{
 }
 
 .project2{    
-    width: 320px;
-    height: 270px;
+    width: 100%;
+    height: 100%;
     background-color:white;
     z-index: 1;
     opacity: 0.6;
@@ -120,8 +116,8 @@ body{
     font-size: 20px;   
 }
 .project3{
-    width: 320px;
-    height: 270px;
+    width: 100%;
+    height: 100%;
     background-color:white;
     z-index: 1;
     opacity: 0.4;
@@ -132,8 +128,8 @@ body{
     font-size: 20px;
     }
  .project4{
-    width: 320px;
-    height: 270px;
+    width: 100%;
+    height: 100%;
     background-color:white;
     z-index: 1;
     opacity: 0.5;
@@ -144,8 +140,8 @@ body{
     font-size: 20px;
     }
     .project5{
-    width: 320px;
-    height: 270px;
+    width: 100%;
+    height: 100%;
     background-color:white;
     z-index: 1;
     opacity: 0.5;
@@ -156,8 +152,8 @@ body{
     font-size: 20px;
     }
     .project6{
-     width: 320px;
-    height: 270px;
+    width: 100%;
+    height: 100%;
     background-color:white;
     z-index: 1;
     opacity: 0.5;
@@ -168,8 +164,8 @@ body{
     font-size: 20px;
     }
     .project7{
-    width: 320px;
-    height: 270px;
+    width: 100%;
+    height: 100%;
     background-color:white;
     z-index: 1;
     opacity: 0.5;
@@ -180,8 +176,8 @@ body{
     font-size: 20px;
     }
     .project8{
-    width: 320px;
-    height: 270px;
+    width: 100%;
+    height: 100%;
     background-color:white;
     z-index: 1;
     opacity: 0.5;
@@ -234,12 +230,9 @@ textarea {
 /* styling for social media icons */
 .social-icons{  
     width: 100%;  
-    text-align: center;    
-    display: flex;
-    padding-left: 30%;
-    padding-right: 20%;
+    text-align: center;
+    padding: 30px 0 8px 0;   
     justify-content: space-around;
-    padding-top: 20px;    
 }
 
 /* styling for footer */
