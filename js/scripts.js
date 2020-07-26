@@ -61,6 +61,13 @@ $(document).ready(function(){
         $('.project4').hide();
     });
 
+    $('.card4').mouseover(function (){
+        $('.project5').show();
+    }); 
+    $('.card4').mouseout(function(){
+        $('.project5').hide();
+    });
+
 
 
 });
