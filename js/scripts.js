@@ -29,11 +29,18 @@ $(document).ready(function(){
             $("#product-img").slideDown();
             $(".product-p").hide();
         });
-
 });  
   
 //portfolio function
+$(document).ready(function(){
+    $('.card').mouseover(function (){
+          $('.project').show();
+      }); 
+      $('.card').mouseout(function(){
+          $('.project').hide();
+      });
 
+    });
 
 
 //form function

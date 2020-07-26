@@ -90,7 +90,8 @@ body{
     text-transform: uppercase;
 }
 #pro{   
-    margin-top: 30%;      
+    margin-top: 30%; 
+    text-align: center;     
 }
 
 .project{
