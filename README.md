@@ -1,6 +1,6 @@
 # README
 ## WEEK 3 IP DELANI-STUDIO
-A Web Application that it's goal is to help me to help me practice and understand better the concepts that we have covered throughout this week on JQuery Fuctions.
+A Web Application that it's goal is to help me practice and understand better the concepts that I have covered throughout this week on JQuery Fuctions.
 
 ## Technologies Used
 * HTML 
@@ -38,4 +38,4 @@ If you find a bug (the website couldn't handle the query and or gave undesired r
 
 If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 
-[Link to Live Site:]()
+[Link to Live Site:](https://sam2020-4.github.io/Delani-Studio/)
