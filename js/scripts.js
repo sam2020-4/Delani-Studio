@@ -54,6 +54,14 @@ $(document).ready(function(){
         $('.project3').hide();
     });
 
+    $('.card3').mouseover(function (){
+        $('.project4').show();
+    }); 
+    $('.card3').mouseout(function(){
+        $('.project4').hide();
+    });
+
+
 
 });
 
