@@ -33,10 +33,10 @@ $(document).ready(function(){
   
 //portfolio function for project 1-8
 $(document).ready(function(){
-    $('.card').mouseover(function (){
+    $('.card0').mouseover(function (){
         $('.project').show();
     }); 
-    $('.card').mouseout(function(){
+    $('.card0').mouseout(function(){
         $('.project').hide();
     });
 
