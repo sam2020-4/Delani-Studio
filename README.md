@@ -1,6 +1,10 @@
 # README
 ## WEEK 3 IP DELANI-STUDIO
+<<<<<<< HEAD
+A Web Application that it's goal is to help me practice and understand better the concepts that we have covered throughout this week on JQuery Fuctions.
+=======
 A Web Application that it's goal is to help me practice and understand better the concepts that I have covered throughout this week on JQuery Fuctions.
+>>>>>>> 4123c3b97a1daa75dd375e54e9fc7bb0edb1c1ac
 
 ## Technologies Used
 * HTML 
@@ -21,6 +25,7 @@ Either Visual Studio, JSFiddle or JavaScript Console
     1. Displays Form messange For Entering name,email and message
         ◦ INPUT: "your name"
         ◦ INPUT: "you email address"
+         ◦ INPUT: "your message to contact us"       
         ◦ OUTPUT: "Alerts you a message of data you entered on the Form"
     
 ### Development
