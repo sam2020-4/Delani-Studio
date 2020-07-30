@@ -9,33 +9,31 @@ body{
     background-repeat: no-repeat;
     background-size: cover;  
     background-position: center;     
-    height:auto;
-    text-align: center;
-    height: 720px;
-    padding: 200px;
+    height:130vh;
+    text-align: center;          
 }
-
-.landing-page >h2{
+#logo{
+    padding-top: 250px;
+}
+.landing-page >h1{
     text-align: center;
     color: white;
     text-transform: uppercase;
-    line-height: 3rem;
-    padding-top: 49px; 
+    line-height: 4rem;
+    padding-top: 47px; 
     font-weight: bold;  
 }
 
-.landing-page>p{
+#lp{
     color: white;    
     text-transform: uppercase; 
-    text-align: center;   
-}
-
-.landing-page >img:last-child{
-    padding: 150px;
+    text-align: center;  
+    width: 100%; 
 }
 
 #mouseClick {
     animation: bounce 2s infinite;
+    padding-top: 160px;
   }
   
   @keyframes bounce {
@@ -49,6 +47,15 @@ body{
       transform: translateY(-45px);
     }
   }  
+
+  /* media queries */
+  @media  only screen and (max-width:600px){
+      .landing-page{
+          margin-right: auto;
+          margin-left: auto;
+      }     
+  } 
+ 
 /* styles for about section */
 .about{
     padding: 40px;
